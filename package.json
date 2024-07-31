@@ -1,0 +1,73 @@
+{
+  "name": "endurance-template",
+  "version": "0.1.0",
+  "description": "a lightweight express-based api framework with blueprint",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "prod": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@canvasjs/charts": "^3.9.0",
+    "@canvasjs/stockcharts": "^1.9.0",
+    "canvas": "^2.9.0",
+    "canvas-js": "^9.0.0",
+    "chai": "^5.1.1",
+    "compression": "^1.7.4",
+    "connect-mongodb-session": "^3.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "endurance-core": "^0.1.0",
+    "exceljs": "^4.4.0",
+    "express": "~4.16.0",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "helmet": "^6.1.5",
+    "http-errors": "~1.6.2",
+    "jimp": "^0.22.10",
+    "jsdom": "^24.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "merge-img": "^2.1.3",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^7.0.4",
+    "morgan": "~1.9.0",
+    "node-addon-api": "^8.1.0",
+    "node-cron": "^3.0.2",
+    "node-gyp": "^10.1.0",
+    "node-mailjet": "^6.0.2",
+    "openai": "^4.24.7",
+    "passport": "^0.6.0",
+    "passport-azure-ad": "^4.3.5",
+    "passport-azure-ad-oauth2": "^0.0.4",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "platformsh-config": "^2.4.1",
+    "pug": "2.0.0-beta11",
+    "puppeteer": "^21.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "rotating-file-stream": "^3.1.0",
+    "sharp": "^0.32.6",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^3.1.4",
+    "supertest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianduport/endurance-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianduport/endurance-template/issues"
+  },
+  "homepage": "https://github.com/florianduport/endurance-template#readme"
+}
