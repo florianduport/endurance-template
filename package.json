@@ -9,6 +9,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "edrm-hello-world": "^0.1.0",
     "endurance-core": "^0.1.6",
     "mongoose": "^7.0.4"
   },
