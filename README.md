@@ -2,39 +2,38 @@
 
 ## Overview
 
-The Endurance Template is a highly modular and scalable Node.js project template built on Express.js. It is designed to dynamically load and manage independent modules, making it extremely easy to develop, extend, and maintain web applications. The goal is to create a library of ready-made modules (e.g., login, user management, etc.) that can be easily integrated into any project.
+The Endurance Framework is a highly modular and scalable Node.js project template built on Express.js. It is designed to dynamically load and manage independent modules, making it extremely easy to develop, extend, and maintain web applications. The goal is to create a library of ready-made modules (e.g., login, user management, etc.) that can be easily integrated into any project.
 
 ## Features
 
 - **Dynamic Module Loading**: Easily add new modules with their own models and routes, and they will be automatically loaded and exposed by the application.
 - **Express.js**: Fast, unopinionated, minimalist web framework for Node.js.
 - **Modular Structure**: Each module is independent, promoting separation of concerns and better maintainability.
-- **Session Management**: Uses MongoDB for session storage in production and in-memory sessions for development.
-- **Environment Configuration**: Easily switch between development and production environments.
-- **Robust Testing**: Includes setup for testing with Mocha, Supertest, and Chai.
-- **PM2 Integration**: Manage and keep your application alive in production.
-- **Nodemon for Development**: Automatically restart your server on code changes during development.
+- **Modules marketplace**: Uses npm packages starting with "EDRM-" to quickly add features to your API. 
+- **Lib assets**: Include everything your need to start creating a robust API : events management, CRON, swagger, API versioning, webhooks etc.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js (v20.x)
-- MongoDB (optional for session management in production)
+- MongoDB (optional for session management and data management)
 
 ### Installation
 
-1. Clone the repository:
+1. Install our CLI:
 
     ```sh
-    git clone https://github.com/florianduport/endurance-template.git
-    cd endurance-template
+    npm install -g endurance
     ```
 
-2. Install the dependencies:
+2. Create a project folder and create a new project:
 
     ```sh
-    npm install
+    mkdir newproject
+    cd newproject
+
+    endurance new
     ```
 
 ### Usage
