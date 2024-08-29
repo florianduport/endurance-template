@@ -1,4 +1,6 @@
-const router = require('endurance-core/lib/router')();
+import createRouter from 'endurance-core/lib/router';
+
+const router = createRouter();
 
 /**
  * @swagger
@@ -13,5 +15,4 @@ router.get("/",  (req, res) => {
   res.status(200).json({ message: 'Hello World Local! v2' });
 });
 
-
-module.exports = router;
+export default router;

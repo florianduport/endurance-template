@@ -1,4 +1,7 @@
-const mongoose = require("mongoose");
+/**
+ * Start of Selection
+ */
+import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
 
@@ -12,4 +15,5 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("UserHelloWorldLocal", userSchema, 'users');
 
-module.exports = User;
+export default User;
+
