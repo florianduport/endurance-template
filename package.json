@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "endurance-template",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "a lightweight express-based api framework with blueprint",
   "main": "app.js",
   "scripts": {
@@ -10,9 +10,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "edrm-hello-world": "^0.1.0",
+    "debug": "^4.3.7",
     "endurance-core": "^0.1.6",
-    "mongoose": "^7.0.4"
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.8.2",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "mocha": "^5.1.1",
