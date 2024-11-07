@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "endurance-template",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "a lightweight express-based api framework with blueprint",
   "main": "app.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "debug": "^4.3.7",
-    "endurance-core": "^0.1.6",
+    "endurance-core": "^0.2.14",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "mongoose": "^7.8.2",
