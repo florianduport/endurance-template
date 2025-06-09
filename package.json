@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "endurance-template",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "a lightweight express-based api framework with blueprint",
   "main": "src/bin/www.ts",
   "scripts": {
@@ -24,6 +24,7 @@
     "@types/debug": "^4.1.12",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.30",
+    "@types/supertest": "^6.0.3",
     "mocha": "^5.1.1",
     "nodemon": "^3.1.4",
     "supertest": "^3.0.0",
