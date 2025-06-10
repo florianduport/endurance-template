@@ -1,17 +1,19 @@
 {
   "type": "module",
   "name": "endurance-template",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "a lightweight express-based api framework with blueprint",
-  "main": "app.js",
+  "main": "src/bin/www.ts",
   "scripts": {
-    "start": "nodemon ./bin/www",
-    "prod": "node ./bin/www",
-    "test": "mocha"
+    "build": "tsc",
+    "start": "node dist/bin/www.js",
+    "dev": "tsc --watch & nodemon dist/bin/www.js",
+    "prod": "node ./dist/bin/www.js",
+    "test": "mocha --loader ts-node/esm --extensions ts --recursive \"test/**/*.test.ts\""
   },
   "dependencies": {
     "debug": "^4.3.7",
-    "endurance-core": "^0.2.14",
+    "endurance-core": "^0.5.1",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "mongoose": "^7.8.2",
@@ -19,9 +21,15 @@
     "url": "^0.11.4"
   },
   "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.30",
+    "@types/supertest": "^6.0.3",
     "mocha": "^5.1.1",
     "nodemon": "^3.1.4",
-    "supertest": "^3.0.0"
+    "supertest": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   },
   "repository": {
     "type": "git",
