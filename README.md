@@ -43,7 +43,7 @@ The Endurance Framework is a highly modular and scalable Node.js project templat
     For development:
 
     ```sh
-    npm start
+    npm run dev
     ```
 
     For production:
